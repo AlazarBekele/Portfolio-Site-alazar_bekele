@@ -1,0 +1,8 @@
+.ImageProfile {
+    width: 200px;
+}
+.sidebarContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
