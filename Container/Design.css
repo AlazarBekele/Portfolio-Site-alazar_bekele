@@ -1,12 +1,22 @@
 
 body {
-    margin-left: 330px;
+    margin-left: 310px;
+    background-color: #ebebeb;
 }
 
 /*  */
 
+.ContainerPofile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .ImageProfile {
     width: 200px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    margin-top: 15px;
 }
 .sidebarContainer {
     position: fixed;
@@ -14,7 +24,7 @@ body {
     left: 0;
     background-color: black;
     height: 100vh;
-    width: 300px;
+    width: 280px;
 }
 
 
@@ -31,4 +41,5 @@ body {
 .ContainerMainRight {
     display: grid;
     grid-template-columns: 1fr 200px;
+    gap: 10px;
 }
