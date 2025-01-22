@@ -15,14 +15,14 @@ body {
 
 .ImageProfile {
     width: 200px;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    border-radius: 50%;
     margin-top: 15px;
 }
 .sidebarContainer {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: white;
     height: 100vh;
     width: 280px;
 }
