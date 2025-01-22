@@ -58,6 +58,16 @@ body {
 .landingText {
     font-size: 46px;
 }
-.textContainer {
-    
+.aboutMe {
+    display: grid;
+    grid-template-columns: 450px;
+    font-size: 13px;
+}
+.DetailME {
+    border: none;
+    background-color: #7091E6;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    font-size: 13px;
 }
