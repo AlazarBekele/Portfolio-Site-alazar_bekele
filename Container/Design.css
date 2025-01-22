@@ -71,3 +71,18 @@ body {
     padding: 10px 20px 10px 20px;
     font-size: 13px;
 }
+
+/*  */
+
+.social_media_icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.social_icons {
+    background-color: #7091E6;
+    padding: 5px;
+    border-radius: 50%;
+}
