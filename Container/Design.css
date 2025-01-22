@@ -86,3 +86,17 @@ body {
     padding: 5px;
     border-radius: 50%;
 }
+
+/*  */
+
+.Detailabout {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bgcolor {
+    background-color: #7091E6;
+    padding: 3px 5px 3px 5px;
+}
