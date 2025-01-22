@@ -1,7 +1,6 @@
 
 body {
-    margin-left: 310px;
-    background-color: #ebebeb;
+    padding-left: 300px;
 }
 
 /*  */
@@ -14,7 +13,7 @@ body {
 }
 
 .ImageProfile {
-    width: 200px;
+    width: 160px;
     border-radius: 50%;
     margin-top: 15px;
 }
@@ -31,7 +30,7 @@ body {
 /*  */
 
 .MainBody {
-    background-color: rgb(0, 8, 255);
+    background-color: rgb(255, 255, 255);
     
 }
 
