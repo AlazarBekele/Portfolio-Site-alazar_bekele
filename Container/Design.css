@@ -45,3 +45,19 @@ body {
 
 
 /*  */
+
+.landingIMG {
+    width: 400px;
+}
+
+.landing_page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.landingText {
+    font-size: 46px;
+}
+.textContainer {
+    
+}
