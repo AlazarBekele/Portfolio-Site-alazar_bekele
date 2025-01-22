@@ -30,9 +30,8 @@ body {
 
 /*  */
 
-.MainBody {
-    background-color: rgb(255, 255, 255);
-    
+.backgroundColor {
+    background-color: white;
 }
 
 
