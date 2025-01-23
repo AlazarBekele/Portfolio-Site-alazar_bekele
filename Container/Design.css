@@ -159,3 +159,16 @@ body {
 .ProtImg {
     width: 200px;
 }
+
+.PortfolioContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portoContainer {
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    row-gap: 25px;
+    opacity: 60%;
+}
