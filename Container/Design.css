@@ -147,3 +147,9 @@ body {
 .cardText {
     font-size: 12px;
 }
+
+.CardFlex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
