@@ -153,3 +153,9 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+
+/*  */
+
+.ProtImg {
+    width: 200px;
+}
