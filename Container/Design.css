@@ -206,7 +206,21 @@ body {
     font-size: 12px;
 }
 
-.datebg {
+.datebg1 {
+    background-color: #b9cdff;
+    color: white;
+}
+
+.datebg2 {
+    background-color: #799fff;
+    color: white;
+}
+
+.datebg3 {
     background-color: #0048ff;
     color: white;
+}
+
+.hrFlex {
+    margin: auto;
 }
