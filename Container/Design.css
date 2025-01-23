@@ -126,3 +126,9 @@ body {
     font-size: 13px;
     color: rgb(80, 80, 80);
 }
+
+/*  */
+
+.CardFilter {
+    filter: brightness(0) saturate(100%) invert(31%) sepia(13%) saturate(2984%) hue-rotate(190deg) brightness(97%) contrast(90%);
+}
