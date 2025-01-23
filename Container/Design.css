@@ -1,6 +1,6 @@
 
 body {
-    padding-left: 300px;
+    padding-left: 340px;
 }
 
 /*  */
@@ -170,5 +170,17 @@ body {
     display: grid;
     grid-template-columns: 230px 230px 230px 230px;
     row-gap: 25px;
-    opacity: 60%;
+    opacity: 90%;
+}
+
+
+/*  */
+
+.rightBar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    height: 100vh;
+    width: 130px;
 }
