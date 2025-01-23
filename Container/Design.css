@@ -191,16 +191,22 @@ body {
 
 .EducationContainer {
     background-color: white;
-    padding: 20px;
+    padding: 40px 10px 40px 10px;
 }
 
 .EducationFlex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .EducationDetail {
     display: grid;
     grid-template-columns: 550px;
+    font-size: 12px;
+}
+
+.datebg {
+    background-color: #0048ff;
+    color: white;
 }
