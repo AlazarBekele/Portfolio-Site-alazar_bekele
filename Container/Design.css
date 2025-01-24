@@ -251,11 +251,12 @@ body {
 .ContactInfo {
     width: 290px;
     height: 220px;
-    background-color: #0048ff;
+    background-color: #ADBBDA;
 }
 
 .locationIcon {
     width: 60px;
+    filter: brightness(0) saturate(100%) invert(30%) sepia(22%) saturate(2368%) hue-rotate(196deg) brightness(94%) contrast(87%);
 }
 
 .ContactCard {
@@ -269,4 +270,5 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    row-gap: 30px;
 }
