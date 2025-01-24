@@ -235,9 +235,12 @@ body {
 
 /*  */
 
+.MapContainer {
+    
+}
 
 .Map {
-    background-color: #8697C4;
+    background-color: #7091E6;
 }
 
 .MainMap {
