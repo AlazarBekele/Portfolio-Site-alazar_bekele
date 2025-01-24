@@ -261,7 +261,7 @@ body {
 
 .ContactCard {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -271,4 +271,11 @@ body {
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
+}
+
+.coreContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
 }
