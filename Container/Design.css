@@ -247,3 +247,26 @@ body {
     width: 100%;
     margin: 0;
 }
+
+.ContactInfo {
+    width: 290px;
+    height: 220px;
+    background-color: #0048ff;
+}
+
+.locationIcon {
+    width: 60px;
+}
+
+.ContactCard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ContactInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
