@@ -72,3 +72,38 @@
         height: 200px;
     }
 }
+
+@media (max-width : 1255px) {
+    body {
+        padding-left: 260px;
+    }
+}
+
+@media (max-width : 1215px) {
+    body {
+        padding-left: 320px;
+    }
+    .ContainerMainRight {
+        grid-template-columns: 650px;
+    }
+    .CardFilter {
+        width: 120px;
+    }
+    .Card1 {
+        width: 200px;
+    }
+    .EducationDetail {
+        grid-template-columns: 370px;
+        font-size: 10px;
+    }
+    .ContactInfo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width : 1175px) {
+    body {
+        padding-left: 300px;
+    }
+}
