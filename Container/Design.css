@@ -5,6 +5,7 @@ body {
 
 /*  */
 
+
 .ContainerPofile {
     display: flex;
     flex-direction: column;
@@ -315,4 +316,15 @@ body {
 .rightIconID {
     width: 40px;
     filter: brightness(0) saturate(100%) invert(77%) sepia(68%) saturate(4992%) hue-rotate(199deg) brightness(97%) contrast(86%);
+}
+
+
+/*  */
+
+
+.videoClip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
