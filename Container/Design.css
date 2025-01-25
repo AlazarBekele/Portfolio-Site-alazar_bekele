@@ -294,7 +294,23 @@ body {
 
 /*  */
 
+.rightBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .serviceIC {
     width: 20px;
+}
+
+.FlexIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightIconID {
+    width: 40px;
 }
