@@ -107,3 +107,67 @@
         padding-left: 300px;
     }
 }
+
+@media (max-width : 1130px) {
+    body {
+        padding-left: 270px;
+    }
+}
+
+@media (max-width : 1090px) {
+    body {
+        padding-left: 250px;
+    }
+    .rightIconID {
+        width: 25px;
+    }
+    .ContainerMainRight {
+        grid-template-columns: 1fr 100px;
+    }
+}
+
+@media (max-width : 1035px) {
+    .ContactFlexCOntainer {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .locationIcon {
+        width: 60px;
+    }
+    .ContactInfo {
+        width: 290px;
+        height: 230px;
+        border-radius: 10px;
+    }
+    .contSize {
+        font-size: 15px;
+    }
+}
+
+@media (max-width : 1015px) {
+    body {
+        padding-left: 290px;
+    }
+    .ContainerMainRight {
+        display: grid;
+        grid-template-columns: 500px;
+    }
+    .CardFlex {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .CardFilter {
+        filter: brightness(0) saturate(100%) invert(31%) sepia(13%) saturate(2984%) hue-rotate(190deg) brightness(97%) contrast(90%);
+        padding: 30px;
+        width: 200px;
+    }
+    .Card1 {
+        width: 300px;
+        background-color: #b0bee3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
