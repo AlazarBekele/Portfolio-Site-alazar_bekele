@@ -180,10 +180,29 @@
     body {
         padding-left: 270px;
     }
+
+    .portoContainer {
+        grid-template-columns: 230px 230px;
+    }
+    .PortfolioContainer {
+        padding-left: 20px;
+    }
 }
 
-@media (max-width : 980px) {
+
+@media (max-width : 950px) {
+    .ContainerPofile {
+        display: none;
+    }
+    .sidebarContainer {
+        width: 100px;
+    }
     body {
-        padding-left: 250px;
+     padding-left: 180px;       
+    }
+    .hum {
+        display: block;
+        filter: brightness(0) saturate(100%) invert(73%) sepia(40%) saturate(5207%) hue-rotate(196deg) brightness(91%) contrast(98%);
+    width: 20px;
     }
 }
