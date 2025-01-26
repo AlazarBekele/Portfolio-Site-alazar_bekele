@@ -444,6 +444,8 @@
     }
 }
 
-@media (max-width : 410px) {
-    body {}
+@media (max-width : 400px) {
+    body {
+        padding-left: 0px;
+    }
 }
