@@ -206,3 +206,145 @@
     width: 20px;
     }
 }
+
+@media (max-width : 915px) {
+    body {
+        padding-left: 150px;
+    }
+}
+
+@media (max-width : 850px) {
+    body {
+        padding-left: 130px;
+    }
+}
+
+@media (max-width : 800px) {
+    body {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width : 760px) {
+    body {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width : 740px) {
+    body {
+        padding-left: 60px;
+    }
+    .sidebarContainer {
+        width: 80px;
+    }
+}
+
+@media (max-width : 710px) {
+    body {
+        padding-left: 50px;
+    }
+    .sidebarContainer {
+        width: 80px;
+    }
+}
+
+@media (max-width : 700px) {
+    body {
+        padding-left: 35px;
+    }
+    .sidebarContainer {
+        width: 60px;
+    }
+}
+
+@media (max-width : 680px) {
+    body {
+        padding-left: 60px;
+    }
+    .sidebarContainer {
+        width: 80px;
+    }
+    .ContainerMainRight {
+        grid-template-columns: 460px;
+    }
+    .rightIconID {
+        width: 18px;
+    }
+    .rightBar {
+        width: 70px;
+    }
+    .landingText {
+        font-size: 40px;
+    }
+    .aboutMe {
+        grid-template-columns: 400px;
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+@media (max-width : 650px) {
+    .sidebarContainer {
+        width: 50px;
+    }
+    body {
+        padding-left: 35px;
+    }
+}
+
+
+@media (max-width : 630px) {
+    body {
+        padding-left: 25px;
+    }
+    .rightBar { 
+        width: 60px;
+    }
+    .serviceText {
+        font-size: 11px;
+        display: grid;
+        grid-template-columns: 350px;
+    }
+    .servgird {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 600px) {
+    .ContainerMainRight {
+        grid-template-columns: 400px;
+    }
+    body {
+        padding-left: 50px;
+    }
+    .landingText {
+        font-size: 35px;
+    }
+    .aboutMe {
+        font-size: 9px;
+        grid-template-columns: 300px;
+        padding-top: 15px;
+    }
+    .ProtImg {
+        width: 200px;
+    }
+    .portoContainer {
+        grid-template-columns: 230px;
+    }
+}
+
+@media (max-width : 575px) {
+    body {
+        padding-left: 35px;
+    }
+}
+
+@media (max-width : 555px) {
+    body {
+        padding-left: 20px;
+    }
+}
