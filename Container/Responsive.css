@@ -348,3 +348,59 @@
         padding-left: 20px;
     }
 }
+
+@media (max-width : 535px) {
+    body {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width : 525px) {
+    body {
+        padding-left: 20px;
+    }
+    .ContainerMainRight {
+        grid-template-columns: 350px;
+    }
+    .landingIMG {
+        width: 300px;
+    }
+    .serviceText {
+        grid-template-columns: 300px;
+        text-align: center;
+    }
+    .serviceText {
+        font-size: 10px;
+    }
+    .EducationDetail {
+        grid-template-columns: 300px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width : 490px) {
+    body {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width : 480px) {
+    .rightBar {
+        width: 40px;
+    }
+    body {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width : 460px) {
+    body {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width : 455px) {
+    .ContainerMainRight {
+        grid-template-columns: 300px;
+    }
+}
