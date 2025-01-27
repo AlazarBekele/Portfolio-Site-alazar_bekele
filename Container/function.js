@@ -12,6 +12,14 @@
 
     }
 
+    function removeClass () {
+
+        document.getElementById ("sidebarContainerID").classList = ("increaseWidCan")
+
+        document.getElementById ("ContainerPofileID").classList = ("takeOutCan")
+
+    }
+
 
     function Load () {
         
