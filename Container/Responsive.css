@@ -205,9 +205,19 @@
         filter: brightness(0) saturate(100%) invert(73%) sepia(40%) saturate(5207%) hue-rotate(196deg) brightness(91%) contrast(98%);
     width: 20px;
     }
-    .show {
-        
+    .increaseWid {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        height: 100vh;
+        width: 280px;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
+    .
 }
 
 @media (max-width : 915px) {

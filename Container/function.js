@@ -4,6 +4,8 @@
             
         document.getElementById ("ContainerPofileID").classList = ("takeOut")
 
+        document.getElementById ("sidebarContainerID").classList = ("increaseWid")
+
     }
 
 
