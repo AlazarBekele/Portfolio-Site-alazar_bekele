@@ -17,6 +17,8 @@
         document.getElementById ("sidebarContainerID").classList = ("increaseWidCan")
 
         document.getElementById ("ContainerPofileID").classList = ("takeOutCan")
+        
+        document.getElementById ("humbergerIcon").classList = ("hum")
 
     }
 
