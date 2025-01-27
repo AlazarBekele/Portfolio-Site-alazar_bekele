@@ -205,6 +205,9 @@
         filter: brightness(0) saturate(100%) invert(73%) sepia(40%) saturate(5207%) hue-rotate(196deg) brightness(91%) contrast(98%);
     width: 20px;
     }
+    .show {
+        
+    }
 }
 
 @media (max-width : 915px) {
