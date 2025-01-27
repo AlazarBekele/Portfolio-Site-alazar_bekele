@@ -345,3 +345,10 @@ body {
 .Loadoff {
     display: none;
 }
+
+/*  */ 
+
+.takeOut {
+    display: block;
+    position: relative;
+}

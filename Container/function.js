@@ -1,13 +1,8 @@
 
 
-    function AddClass () {
-        
-        humbergerIcon = document.getElementsByClassName ("humbergerIcon")
-
-        ContainerPofile = document.getElementsByClassName  ("ContainerPofile")
-
-
-        ContainerPofile.classList.add ('show')
+    function SideBarHumMenu () {
+            
+        document.getElementById ("ContainerPofileID").classList = ("takeOut")
 
     }
 
