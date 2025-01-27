@@ -351,3 +351,20 @@ body {
 .takeOut {
     display: block;
 }
+
+.cancleBtn {
+    width: 35px;
+    filter: brightness(0) saturate(100%) invert(77%) sepia(68%) saturate(4992%) hue-rotate(199deg) brightness(97%) contrast(86%);
+    display: none;
+}
+
+.off {
+    display: none;
+}
+
+.on {
+    width: 35px;
+    filter: brightness(0) saturate(100%) invert(77%) sepia(68%) saturate(4992%) hue-rotate(199deg) brightness(97%) contrast(86%);
+    margin-left: 20px;
+    margin-top: 10px;
+}

@@ -6,6 +6,10 @@
 
         document.getElementById ("sidebarContainerID").classList = ("increaseWid")
 
+        document.getElementById ("humbergerIcon").classList = ("off")
+
+        document.getElementById ("cancleID").classList = ("on")
+
     }
 
 
