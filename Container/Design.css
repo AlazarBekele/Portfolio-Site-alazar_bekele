@@ -366,6 +366,10 @@ body {
     display: none;
 }
 
+.offCan {
+    display: none;
+}
+
 .on {
     width: 35px;
     filter: brightness(0) saturate(100%) invert(77%) sepia(68%) saturate(4992%) hue-rotate(199deg) brightness(97%) contrast(86%);
@@ -384,4 +388,13 @@ body {
         width: 50px;
         overflow-y: auto;
         overflow-x: hidden;
+}
+
+/*  */ 
+
+.iconsFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
 }
