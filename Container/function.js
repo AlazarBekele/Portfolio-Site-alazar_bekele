@@ -12,9 +12,9 @@
     }
 
 
-    // function Load () {
+    function Load () {
         
-    //     document.getElementById ("loadID").classList.add ("Loadoff")
+        document.getElementById ("loadID").classList.add ("Loadoff")
 
-    // }
-    //         setTimeout (Load, 5000);
+    }
+            setTimeout (Load, 5000);
