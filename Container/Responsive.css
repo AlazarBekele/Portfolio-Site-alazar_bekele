@@ -217,7 +217,15 @@
         overflow-y: auto;
         overflow-x: hidden;
     }
-    .
+    .Detailabout {
+        font-size: 10px;
+    }
+    .takeOut {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width : 915px) {
